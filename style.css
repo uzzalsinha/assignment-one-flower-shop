@@ -5,4 +5,38 @@
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.1);
+    /* width: 1920px; */
+    height: 850px;
+    /* flex-shrink: 0; */
+    /* margin: 50px; */
+    padding: 50px;
+}
+.btn-banner{
+    display: inline-flex;
+    padding: 10px 23px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px  #000;
+    background: #E55473;
+    color: #D9D9D9;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-pic{
+    /* width: 635px;
+    height: 800px; */
+    /* flex-shrink: 0; */
+}
+.banner-heading{
+    margin-bottom: 15px;
+}
+.banner-des{
+    margin-bottom:15px;
 }
